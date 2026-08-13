@@ -3,7 +3,7 @@ import json
 import os
 import sys
 
-from models import BarrelLength, DartType, Platform, Spring
+from models import BCAR, BarrelLength, DartType, Platform, Spring
 
 SAMPLES_PER_BATCH = 30
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
@@ -68,7 +68,7 @@ def collect_batch(batch_num):
     platform = prompt_enum("  Foam blaster platform:", Platform)
     barrel_length = prompt_enum("  Barrel length:", BarrelLength)
     spring = prompt_enum("  Spring:", Spring)
-    bcar = prompt("  BCAR: ")
+    bcar = prompt_enum("  BCAR:", BCAR)
     samples = []
     for i in range(1, num_samples + 1):
         fps = prompt(f"  Sample {i:>2}/{num_samples} FPS: ", parse_float)
