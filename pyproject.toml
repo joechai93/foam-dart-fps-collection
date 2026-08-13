@@ -1,0 +1,8 @@
+[project]
+name = "dart-data-collection"
+version = "0.1.0"
+description = "CLI tool to collect FPS readings from foam blasters"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+

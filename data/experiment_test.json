@@ -1,0 +1,19 @@
+{
+  "experiment_name": "test",
+  "batches": [
+    {
+      "dart_type": "Worker Bamboo 1.0g (Stefan)",
+      "platform": "Nerf Retaliator (Modded to take Stefan darts)",
+      "barrel_length": "150mm",
+      "spring": "Elite 9kg",
+      "bcar": "no",
+      "samples": [
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0
+      ]
+    }
+  ]
+}
